@@ -1,0 +1,126 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{ 
+    position: sticky;
+    top: 0px;
+    background-color: #FFD900;
+    padding: 20px;
+    padding-left: 30px;
+}
+
+main{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.divCom{
+    display: flex;
+}
+
+.divText{
+    text-align: center;
+    width: 50%;
+    background-color: #514988;
+    color: white;
+}
+
+.cabecalho h1{
+    color: #FFD900;
+    font-size: 60px;
+}
+.cabecalho p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.textP{
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.divRight{
+    text-align: center;
+    padding-left: 10px;
+
+}
+
+.timer{
+    display: flex;
+    height: 100px;
+    padding-left: 30px;
+}
+
+.itemTimer {
+    padding-left: 20px;
+    color: #514988;
+    font-size: 25px;
+}
+
+.timerL {
+    color: #514988;
+    font-size: 50px;
+    text-align: center;
+    margin-right: 40px;
+}
+
+.divRight p{
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: 0px;
+    color: #E33881;
+}
+
+.divFooter{
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    padding-left: 20px;
+}
+
+footer ul{
+    display: flex;
+    list-style: none;
+}
+
+footer ul img{
+    width: 170px;
+}
+
+.textFooter{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #FFD900;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.divB{
+    align-items: center;
+    padding-left: 120px;
+    padding-top: 100px;
+}
+button{
+
+    text-align: center;
+    background-color: #514988;
+    height: 100px;
+    border-radius: 20px;
+    border: 0px;
+    width: 500px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    color: #FFD900;
+    
+}
